@@ -22,4 +22,9 @@ public class AccountController {
         return "Hello world!";
     }
 
+    @GetMapping("/haha")
+    public Object printAccount(){
+        System.out.println("haha");
+        return "haha";
+    }
 }
